@@ -10,5 +10,5 @@ softwareupdate -i "$PROD" -v;
 # Clone the iStore-Marketing Repo into Library
 git clone https://github.com/core-group/iStore-Marketing.git /Shared\ Items/Techs/iStore_Marketing
 # Copy LaunchDaemon
-cp /Library/iStores/com.core.istore.run_mrkting_gitpull.plist /Library/LaunchDaemons/
-launchctl load -w /Library/LaunchDaemons/
+cp /Shared\ Items/Techs/iStore_Marketing/com.core.istore.run_mrkting_gitpull.plist /Library/LaunchDaemons/
+launchctl load -w /Library/LaunchDaemons/com.core.istore.run_mrkting_gitpull.plist
