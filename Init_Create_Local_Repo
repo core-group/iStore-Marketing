@@ -1,5 +1,4 @@
 #! /bin/sh
-#! /bin/sh
 # install XCode Command Line Tools
 /usr/bin/touch /tmp/.com.apple.dt.CommandLineTools.installondemand.in-progress;
 PROD=$(softwareupdate -l |
